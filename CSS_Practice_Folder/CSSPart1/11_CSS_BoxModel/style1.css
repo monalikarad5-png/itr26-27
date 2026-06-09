@@ -1,0 +1,9 @@
+h1{
+    color: red;
+    /* padding: 80px; */
+    padding-top: 3%;
+    text-align: center;
+
+    margin: 60px;
+    border: 2px solid black;
+}
