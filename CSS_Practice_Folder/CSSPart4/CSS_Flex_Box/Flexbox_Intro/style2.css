@@ -1,0 +1,24 @@
+body{
+    font-family:"Poppins", sans-serif;
+}
+
+.box-Parent{
+    border: 10px solid #222;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    border: 1px solid #666;
+
+}
+.box-child1{
+  background: lightblue;
+}
+.box-child2{
+    background: lightcoral;
+  }
+  @media (max-width: 600px) {
+    .box-Parent {
+        flex-direction: column;
+    }
+}
