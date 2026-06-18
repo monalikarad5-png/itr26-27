@@ -43,7 +43,7 @@ num.splice(3, 2, "krk");
 console.log(num);
 */
 
-/*
+
 // join method
 const charArr = ["A", "M", "A", "N"];
 const res = charArr.toString().replaceAll(",", "/");
@@ -82,7 +82,7 @@ console.log(newArray1);
 // map
 // same as foreach
 // returns new Array
-*/
+
 
 // =================================================================================
 
@@ -96,23 +96,23 @@ const evenArray = number.filter((value, idx) => {
 
 console.log(evenArray);
 
-let newArray = ["N", 1, 3, 4, 5, "A", 87, { name: "Newton" }];
-newArray.forEach((e, index) => {
-  if (typeof e === "object") {
-    console.log(e, index);
-  }
-});
+// let newArray = ["N", 1, 3, 4, 5, "A", 87, { name: "Newton" }];
+// newArray.forEach((e, index) => {
+//   if (typeof e === "object") {
+//     console.log(e, index);
+//   }
+// });
 
-//find method
-const checkObject = newArray.find((e) => e.name === "Newton");
-const checkObjectIndex = newArray.findIndex((e) => e.name === "Newton");
-console.log(checkObject);
-console.log(checkObjectIndex);
+// //find method
+// const checkObject = newArray.find((e) => e.name === "Newton");
+// const checkObjectIndex = newArray.findIndex((e) => e.name === "Newton");
+// console.log(checkObject);
+// console.log(checkObjectIndex);
 
 // some --> It will check and return true if one matches in the array
 
-const check = newArray.some((e) => e === "N");
-console.log(check);
+// const check = newArray.some((e) => e === "N");
+// console.log(check);
 
 // every --> It will check all Elements in the array
 

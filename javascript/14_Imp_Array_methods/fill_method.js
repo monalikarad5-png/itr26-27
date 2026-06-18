@@ -11,8 +11,8 @@
 */
 // Overwrites Original Array
 
-// const myArray =  new Array(10).fill(0);
-// console.log(myArray);
+const myArray =  new Array(10).fill(0);
+console.log(myArray);
 
 // -------------------------------------------------------
 
