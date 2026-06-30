@@ -1,0 +1,1 @@
+# in it we will create a database connection and a session to interact with the database using SQLAlchemy.
